@@ -1,0 +1,73 @@
+# IR Downloader - Usage Examples
+# ==============================
+
+## Basic Usage
+1. Run the script:
+   python ir_downloader.py
+
+2. Enter URL when prompted:
+   Enter URL (or 'exit' to quit, 'stats' for statistics): https://example.com/file.zip
+
+## Supported URL Examples
+
+### Images
+https://example.com/image.jpg
+https://example.com/photo.png
+https://example.com/animation.gif
+
+### Videos
+https://example.com/video.mp4
+https://example.com/movie.mkv
+https://example.com/trailer.avi
+
+### Audio
+https://example.com/music.mp3
+https://example.com/podcast.wav
+https://example.com/sound.flac
+
+### Documents
+https://example.com/document.pdf
+https://example.com/report.docx
+https://example.com/readme.txt
+
+### Archives
+https://example.com/archive.zip
+https://example.com/backup.rar
+https://example.com/data.tar.gz
+
+## Command Examples
+
+### View Statistics
+> stats
+
+### Exit Application
+> exit
+
+### Keyboard Shortcuts
+Ctrl+C - Interrupt current download
+
+## Platform-Specific Notes
+
+### Windows
+- Downloads to: C:\Users\Username\Downloads\IR_Downloads\
+
+### macOS
+- Downloads to: /Users/Username/Downloads/IR_Downloads/
+
+### Linux
+- Downloads to: /home/Username/Downloads/IR_Downloads/
+
+### Android (Termux)
+- Downloads to: /storage/emulated/0/Download/IR_Downloads/
+
+### iOS (Pythonista)
+- Downloads to: /Documents/IR_Downloads/
+
+## Features Demonstrated
+
+✅ Automatic file type detection
+✅ Progress bar with speed indicator
+✅ Cross-platform compatibility
+✅ Resume support for interrupted downloads
+✅ Smart filename extraction
+✅ Session management for better performance
